@@ -23,5 +23,6 @@ class School
       end
     end
    students.join(", ")
+   binding.pry
   end
 end
