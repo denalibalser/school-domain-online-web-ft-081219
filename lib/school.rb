@@ -19,10 +19,10 @@ class School
     roster.each do |key, value|
 
       if key == level
-        students << value.join(", ")
+        students << value
 
       end
     end
-   students
+   students.join(", ")
   end
 end
