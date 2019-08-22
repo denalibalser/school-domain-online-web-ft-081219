@@ -14,15 +14,9 @@ class School
   end
 
   def grade(level)
-    students = []
-
-    roster.each do |key, value|
-
-      if key == level
-        students << value
+    roster.detect do |x, y|
+      if x == level
+        return y
       end
     end
-   students.join(", ")
-   binding.pry
   end
-end
