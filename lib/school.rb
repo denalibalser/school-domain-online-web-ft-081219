@@ -23,8 +23,9 @@ class School
  def sort
    new_hash = {}
    roster.each do |x, y|
-     binding.pry
+
      new_hash[x] = y.sort
+     binding.pry
   end
   new_hash
 end
