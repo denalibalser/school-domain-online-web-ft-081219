@@ -13,7 +13,7 @@ class School
 
   def grade(level)
     students = []
-    roster.map do |level, student|
+    roster.each do |level, student|
       if level == level
         students << student
       end
