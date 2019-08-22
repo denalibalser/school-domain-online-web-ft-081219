@@ -23,7 +23,6 @@ class School
 
       end
     end
-   students.split(",")
-   binding.pry
+   students
   end
 end
