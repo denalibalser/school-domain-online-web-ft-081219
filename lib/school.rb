@@ -20,9 +20,10 @@ class School
 
       if key == level
         students << value.join(", ")
-        binding.pry
+
       end
     end
    students.split (",")
+   binding.pry
   end
 end
