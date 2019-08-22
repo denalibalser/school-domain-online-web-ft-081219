@@ -12,7 +12,13 @@ class School
   end
 
   def grade(level)
-    
+    students = []
+    roster.map do |level, student|
+      if level == level
+        students << student
+      end
+    end
+   students       
   end
 
 end
