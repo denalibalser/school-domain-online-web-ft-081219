@@ -14,12 +14,13 @@ class School
   def grade(level)
     students = []
     roster.each do |level, student|
+       binding.pry  
       if level == level
         students << student
       end
     end
    students
-   binding.pry    
+
   end
 
 end
