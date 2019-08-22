@@ -13,15 +13,13 @@ class School
 
   def grade(level)
     students = []
-    
-    roster.each do |key, value|
 
+    roster.each do |key, value|
+    binding.pry
       if key == level
         students << value
       end
     end
    students
-
   end
-
 end
