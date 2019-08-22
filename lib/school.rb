@@ -17,9 +17,10 @@ class School
     students = []
 
     roster.each do |key, value|
-    binding.pry
+
       if key == level
         students << value
+        binding.pry
       end
     end
    students
