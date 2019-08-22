@@ -18,7 +18,8 @@ class School
         students << student
       end
     end
-   students       
+   students
+   binding.pry    
   end
 
 end
